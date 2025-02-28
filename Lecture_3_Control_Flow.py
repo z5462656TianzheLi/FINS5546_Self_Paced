@@ -109,3 +109,16 @@
 #       continue
 #    sun_of_evens = sun_of_evens + i
 #    print(sun_of_evens)
+
+pairs = [
+  ('a', 1),
+  ('b', 2),
+  ('c', 3),
+]
+#pair = ('a',1)
+#a,b = pair
+#print(a)
+
+#遍历时解包
+for a,b in pairs:
+    print('KEY: {}, VALUE: {}'.format(a,b))
