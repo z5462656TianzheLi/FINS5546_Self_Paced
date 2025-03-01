@@ -110,15 +110,52 @@
 #    sun_of_evens = sun_of_evens + i
 #    print(sun_of_evens)
 
-pairs = [
-  ('a', 1),
-  ('b', 2),
-  ('c', 3),
-]
+#pairs = [
+#  ('a', 1),
+#  ('b', 2),
+#  ('c', 3),
+#]
 #pair = ('a',1)
 #a,b = pair
 #print(a)
 
 #遍历时解包
-for a,b in pairs:
-    print('KEY: {}, VALUE: {}'.format(a,b))
+#for a,b in pairs:
+#    print('KEY: {}, VALUE: {}'.format(a,b))
+
+#even_sum = []
+#for i in range(0,10000001):
+#    if i % 2 == 0:
+#        even_sum.append(i)
+#print(even_sum[:10])
+
+#even_sum = [x for x in range(0,1000001) if x % 2 == 0]
+#print(even_sum[:10])
+
+#pairs = [
+# ('a', 1),
+#  ('b', 2),
+#  ('c', 3),
+#  ]
+
+#dic = {key : value for key, value in pairs}
+#print(dic)
+
+#dic = {'a': 1, 'b': 2, 'c': 3}
+#pairs = [(key,value) for key,value in dic.items()]
+#print(pairs)
+
+#lst = []
+#for i in range(0,101):
+#    if i % 2 == 0:
+#        lst.append(i)
+#print(lst)
+
+#lst = [x for x in range(0,101) if x % 2 == 0]
+#print(lst)
+
+#gen = (i for i in range(101))
+#print(gen)
+
+#x = 93848.3945126
+#print(round(x,3))
