@@ -1,3 +1,6 @@
+"""Docstring for this module(Lecture_3_Control_Flow).
+
+This module is mainly for self_paced learning. of FINS5546 Lecture_2 content."""
 #happy = True
 #very_happy = True
 #if happy is True:

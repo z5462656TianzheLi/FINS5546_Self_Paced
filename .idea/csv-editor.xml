@@ -3,7 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\qan_stock_price.csv">
+        <entry key="\data\nvda_stock_price.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
