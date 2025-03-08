@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf1ba504-d2bd-4da6-b751-32cb21bb7a66" name="Changes" comment="Add script to analyze Amazon reviews with sentiment and word clouds.&#10;&#10;This commit introduces a Python script for processing and analyzing Amazon reviews. It includes functions for text preprocessing, sentiment analysis using NLTK's Vader, and visualizing positive and negative sentiments with word clouds. The script generates results for common words, sentiment classification, and evaluation metrics.">
-      <change afterPath="$PROJECT_DIR$/Lecture_5_Intro_to _Pandas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/Lec_Avgs_Example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lectures/Lec_pd_Series.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/nvda_stock_price.csv" beforeDir="false" />
-    </list>
+    <list default="true" id="cf1ba504-d2bd-4da6-b751-32cb21bb7a66" name="Changes" comment="Delete obsolete `.idea` config and NVDA stock price data files.&#10;&#10;This commit removes residual `.idea` configuration files and an outdated `nvda_stock_price.csv` file from the project. These files are unnecessary and their removal helps maintain a cleaner and more organized codebase." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +132,7 @@
       <workItem from="1740910548253" duration="5000" />
       <workItem from="1741158169825" duration="5861000" />
       <workItem from="1741219814551" duration="3000" />
-      <workItem from="1741417472716" duration="1273000" />
+      <workItem from="1741417472716" duration="2046000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project setup and stock price script&#10;&#10;This commit initializes the project with IntelliJ IDEA configuration files and adds a script to download AAPL stock data using yfinance. The configuration files include project settings, inspection profiles, and version control setup. The script retrieves stock data from 2020-01-01 to 2025-01-31.">
       <option name="closed" value="true" />
@@ -213,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740910523628</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Delete obsolete `.idea` config and NVDA stock price data files.&#10;&#10;This commit removes residual `.idea` configuration files and an outdated `nvda_stock_price.csv` file from the project. These files are unnecessary and their removal helps maintain a cleaner and more organized codebase.">
+      <option name="closed" value="true" />
+      <created>1741419552220</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741419552220</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +242,8 @@
     <MESSAGE value="&quot;Add file I/O lecture script with examples and placeholders&#10;&#10;Introduce `Lec_Fileio.py` to demonstrate file handling concepts, including reading, writing, and using context managers. The script includes commented-out code for examples, auxiliary functions, and a placeholder for the `safe_open` utility function.&quot;" />
     <MESSAGE value="&quot;Add file I/O lecture script with examples and placeholders&#10;&#10;Introduce `Lec_Fileio.py` to demonstrate file handling concepts, including reading, writing, and using context managers. The script includes commented-out code for examples, auxiliary functions, and a placeholder for the `safe_open` utility function.&quot; developments." />
     <MESSAGE value="Add script to analyze Amazon reviews with sentiment and word clouds.&#10;&#10;This commit introduces a Python script for processing and analyzing Amazon reviews. It includes functions for text preprocessing, sentiment analysis using NLTK's Vader, and visualizing positive and negative sentiments with word clouds. The script generates results for common words, sentiment classification, and evaluation metrics." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add script to analyze Amazon reviews with sentiment and word clouds.&#10;&#10;This commit introduces a Python script for processing and analyzing Amazon reviews. It includes functions for text preprocessing, sentiment analysis using NLTK's Vader, and visualizing positive and negative sentiments with word clouds. The script generates results for common words, sentiment classification, and evaluation metrics." />
+    <MESSAGE value="Delete obsolete `.idea` config and NVDA stock price data files.&#10;&#10;This commit removes residual `.idea` configuration files and an outdated `nvda_stock_price.csv` file from the project. These files are unnecessary and their removal helps maintain a cleaner and more organized codebase." />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete obsolete `.idea` config and NVDA stock price data files.&#10;&#10;This commit removes residual `.idea` configuration files and an outdated `nvda_stock_price.csv` file from the project. These files are unnecessary and their removal helps maintain a cleaner and more organized codebase." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_Fileio.coverage" NAME="Lec_Fileio Coverage Results" MODIFIED="1740909658099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
@@ -249,7 +251,7 @@
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_3_Control_Floows_Functions.coverage" NAME="Lecture_3_Control_Floows_Functions Coverage Results" MODIFIED="1740755648939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_1_Download_Stock_Price.coverage" NAME="Lecture_1_Download_Stock_Price Coverage Results" MODIFIED="1740359075875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_4_2_yf_example_2.coverage" NAME="Lecture_4_2_yf_example_2 Coverage Results" MODIFIED="1741417762630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_Series.coverage" NAME="Lec_pd_Series Coverage Results" MODIFIED="1741418423205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
+    <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_Series.coverage" NAME="Lec_pd_Series Coverage Results" MODIFIED="1741418838383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_2_Building_Blocks.coverage" NAME="Lecture_2_Building_Blocks Coverage Results" MODIFIED="1740621045156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1740883075815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_3_Control_Flow.coverage" NAME="Lecture_3_Control_Flow Coverage Results" MODIFIED="1740798193253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
