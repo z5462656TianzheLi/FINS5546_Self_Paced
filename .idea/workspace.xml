@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf1ba504-d2bd-4da6-b751-32cb21bb7a66" name="Changes" comment="Delete obsolete `.idea` config and NVDA stock price data files.&#10;&#10;This commit removes residual `.idea` configuration files and an outdated `nvda_stock_price.csv` file from the project. These files are unnecessary and their removal helps maintain a cleaner and more organized codebase." />
+    <list default="true" id="cf1ba504-d2bd-4da6-b751-32cb21bb7a66" name="Changes" comment="Add new lecture script for DataFrames in pandas.&#10;&#10;This commit introduces `Lec_pd_Dataframes.py`, a companion script for the lecture on pandas DataFrames. It includes examples for creating Series and DataFrames, modifying indexes and columns, and sorting Series. Placeholder code is added for further expansion and detailed demonstrations.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lectures/Lec_pd_Dataframes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lectures/Lec_pd_Dataframes.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,34 +34,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.0.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Another_Mod_Inside_Lec.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lec_Avgs_Example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lec_Fileio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lec_pd_Series.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture_1_Download_Stock_Price.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture_2_Building_Blocks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture_3_Control_Floows_Functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture_3_Control_Flow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture_4.2_yf_example_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture_4_2_yf_example_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lecture_4_6_yf_example_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Mod_Inside_Lec.executor&quot;: &quot;Run&quot;,
-    &quot;Python.TEST.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.0.executor": "Run",
+    "Python.Another_Mod_Inside_Lec.executor": "Run",
+    "Python.Lec_Avgs_Example.executor": "Run",
+    "Python.Lec_Fileio.executor": "Run",
+    "Python.Lec_pd_Dataframes.executor": "Run",
+    "Python.Lec_pd_Series.executor": "Run",
+    "Python.Lecture_1_Download_Stock_Price.executor": "Run",
+    "Python.Lecture_2_Building_Blocks.executor": "Run",
+    "Python.Lecture_3_Control_Floows_Functions.executor": "Run",
+    "Python.Lecture_3_Control_Flow.executor": "Run",
+    "Python.Lecture_4.2_yf_example_2.executor": "Run",
+    "Python.Lecture_4_2_yf_example_2.executor": "Run",
+    "Python.Lecture_4_6_yf_example_3.executor": "Run",
+    "Python.Mod_Inside_Lec.executor": "Run",
+    "Python.TEST.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Lecture_4_2_yf_example_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FINS5546_Self_Paced" />
@@ -132,7 +136,7 @@
       <workItem from="1740910548253" duration="5000" />
       <workItem from="1741158169825" duration="5861000" />
       <workItem from="1741219814551" duration="3000" />
-      <workItem from="1741417472716" duration="2046000" />
+      <workItem from="1741417472716" duration="7238000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project setup and stock price script&#10;&#10;This commit initializes the project with IntelliJ IDEA configuration files and adds a script to download AAPL stock data using yfinance. The configuration files include project settings, inspection profiles, and version control setup. The script retrieves stock data from 2020-01-01 to 2025-01-31.">
       <option name="closed" value="true" />
@@ -214,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741419552220</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add new lecture script for DataFrames in pandas.&#10;&#10;This commit introduces `Lec_pd_Dataframes.py`, a companion script for the lecture on pandas DataFrames. It includes examples for creating Series and DataFrames, modifying indexes and columns, and sorting Series. Placeholder code is added for further expansion and detailed demonstrations.">
+      <option name="closed" value="true" />
+      <created>1741419614834</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741419614834</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,12 +255,14 @@
     <MESSAGE value="&quot;Add file I/O lecture script with examples and placeholders&#10;&#10;Introduce `Lec_Fileio.py` to demonstrate file handling concepts, including reading, writing, and using context managers. The script includes commented-out code for examples, auxiliary functions, and a placeholder for the `safe_open` utility function.&quot; developments." />
     <MESSAGE value="Add script to analyze Amazon reviews with sentiment and word clouds.&#10;&#10;This commit introduces a Python script for processing and analyzing Amazon reviews. It includes functions for text preprocessing, sentiment analysis using NLTK's Vader, and visualizing positive and negative sentiments with word clouds. The script generates results for common words, sentiment classification, and evaluation metrics." />
     <MESSAGE value="Delete obsolete `.idea` config and NVDA stock price data files.&#10;&#10;This commit removes residual `.idea` configuration files and an outdated `nvda_stock_price.csv` file from the project. These files are unnecessary and their removal helps maintain a cleaner and more organized codebase." />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete obsolete `.idea` config and NVDA stock price data files.&#10;&#10;This commit removes residual `.idea` configuration files and an outdated `nvda_stock_price.csv` file from the project. These files are unnecessary and their removal helps maintain a cleaner and more organized codebase." />
+    <MESSAGE value="Add new lecture script for DataFrames in pandas.&#10;&#10;This commit introduces `Lec_pd_Dataframes.py`, a companion script for the lecture on pandas DataFrames. It includes examples for creating Series and DataFrames, modifying indexes and columns, and sorting Series. Placeholder code is added for further expansion and detailed demonstrations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new lecture script for DataFrames in pandas.&#10;&#10;This commit introduces `Lec_pd_Dataframes.py`, a companion script for the lecture on pandas DataFrames. It includes examples for creating Series and DataFrames, modifying indexes and columns, and sorting Series. Placeholder code is added for further expansion and detailed demonstrations." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_Fileio.coverage" NAME="Lec_Fileio Coverage Results" MODIFIED="1740909658099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$0.coverage" NAME="0 Coverage Results" MODIFIED="1740910404721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_3_Control_Floows_Functions.coverage" NAME="Lecture_3_Control_Floows_Functions Coverage Results" MODIFIED="1740755648939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_Dataframes.coverage" NAME="Lec_pd_Dataframes Coverage Results" MODIFIED="1741427267760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_1_Download_Stock_Price.coverage" NAME="Lecture_1_Download_Stock_Price Coverage Results" MODIFIED="1740359075875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_4_2_yf_example_2.coverage" NAME="Lecture_4_2_yf_example_2 Coverage Results" MODIFIED="1741417762630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_Series.coverage" NAME="Lec_pd_Series Coverage Results" MODIFIED="1741418838383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />

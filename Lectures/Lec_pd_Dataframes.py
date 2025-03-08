@@ -53,17 +53,21 @@ bday = [
 # ----------------------------------------------------------------------------
 
 # Series with prices
-prc_ser = pd.Series(data=prices, index=dates)
+#prc_ser = pd.Series(data=prices, index=dates)
+prc_ser = pd.Series(data = prices,index = dates)
+#print(prc_ser)
 
 # Series with trading day
-bday_ser = pd.Series(data=bday, index=dates)
-
+#bday_ser = pd.Series(data=bday, index=dates)
+bday_ser = pd.Series(data = bday, index = dates)
+#print('\n')
+#print(bday_ser)
 
 # ----------------------------------------------------------------------------
 #   Create a dataframe
 # ----------------------------------------------------------------------------
 # Data Frame with close and Bday columns
-df  = '?'
+df  = pd.DataFrame({'Close': prc_ser,'Bday': bday_ser})
 #print(df)
 
 
@@ -73,6 +77,8 @@ df  = '?'
 # The attribute `columns` returns the column index
 #print(df.columns)
 #print('The type of this index is', type(df.columns))
+
+#print(df.index)
 
 # We can get the series corresponding to a column index label
 #col0 = df['Close']
@@ -92,7 +98,9 @@ df  = '?'
 # ----------------------------------------------------------------------------
 # Modify columns and indexes
 #df.columns = ['A', 'B']
+
 #df.index = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 #print(df)
 
 # Then revert back
@@ -116,15 +124,21 @@ df  = '?'
 # ----------------------------------------------------------------------------
 
 # Create a series with an unsorted index
-new_ser = pd.Series(data=[1,3,2], index=['a', 'c', 'b'])
-#print(new_ser)
+new_ser = pd.Series(data=[7.2,8.9,7.5], index=['a', 'c', 'b'])
+print(new_ser)
+
+new_ser_1 = pd.Series(data = ['one','two','three'], index = ['a', 'b', 'c'])
 
 # This will return 'False'
-#print(new_ser.is_monotonic_increasing)
+print(new_ser.is_monotonic_increasing)
 
 # Sort the series based on the index
-sorted_ser  = '?'
-#print(sorted_ser)
+sorted_ser_0  = new_ser.sort_index()
+print(sorted_ser_0)
+
+df_1 = pd.DataFrame({'Column1': sorted_ser_0, 'Column2': new_ser_1})
+print(df_1)
+
 
 # This will return only the first rows (not the entire series as before)
 #x = sorted_ser['a':'b'] # --> only first two rows
