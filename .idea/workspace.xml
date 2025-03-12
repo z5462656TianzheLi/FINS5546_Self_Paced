@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf1ba504-d2bd-4da6-b751-32cb21bb7a66" name="Changes" comment="Add new lecture scripts for pandas CSV and indexing&#10;&#10;Introduce `Lec_pd_csv.py` and `Lec_pd_Indexing.py` as companion scripts for lectures on handling CSV files and pandas object indexing respectively. These scripts feature examples for reading/writing CSVs, series handling, and DataFrame indexing methods." />
+    <list default="true" id="cf1ba504-d2bd-4da6-b751-32cb21bb7a66" name="Changes" comment="Add new lecture scripts for pandas CSV and indexing&#10;&#10;Introduce `Lec_pd_csv.py` and `Lec_pd_Indexing.py` as companion scripts for lectures on handling CSV files and pandas object indexing respectively. These scripts feature examples for reading/writing CSVs, series handling, and DataFrame indexing methods.">
+      <change afterPath="$PROJECT_DIR$/Lectures/Lec_pd_Datetime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lectures/Lec_pd_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lectures/Lec_pd_csv.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +43,7 @@
     "Python.Lec_Avgs_Example.executor": "Run",
     "Python.Lec_Fileio.executor": "Run",
     "Python.Lec_pd_Dataframes.executor": "Run",
+    "Python.Lec_pd_Datetime.executor": "Run",
     "Python.Lec_pd_Indexing.executor": "Run",
     "Python.Lec_pd_Numpy.executor": "Run",
     "Python.Lec_pd_Series.executor": "Run",
@@ -62,6 +68,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samle\PycharmProjects\FINS5546_Self_Paced" />
+      <recent name="C:\Users\samle\PycharmProjects\FINS5546_Self_Paced\Lectures" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Lecture_4_2_yf_example_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FINS5546_Self_Paced" />
@@ -137,7 +149,12 @@
       <workItem from="1741219814551" duration="3000" />
       <workItem from="1741417472716" duration="8451000" />
       <workItem from="1741444182312" duration="2076000" />
-      <workItem from="1741569883128" duration="10900000" />
+      <workItem from="1741569883128" duration="10958000" />
+      <workItem from="1741582767643" duration="8000" />
+      <workItem from="1741583142072" duration="38000" />
+      <workItem from="1741679877277" duration="1000" />
+      <workItem from="1741679967606" duration="642000" />
+      <workItem from="1741763757887" duration="5413000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project setup and stock price script&#10;&#10;This commit initializes the project with IntelliJ IDEA configuration files and adds a script to download AAPL stock data using yfinance. The configuration files include project settings, inspection profiles, and version control setup. The script retrieves stock data from 2020-01-01 to 2025-01-31.">
       <option name="closed" value="true" />
@@ -251,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741582688898</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add new lecture scripts for pandas CSV and indexing&#10;&#10;Introduce `Lec_pd_csv.py` and `Lec_pd_Indexing.py` as companion scripts for lectures on handling CSV files and pandas object indexing respectively. These scripts feature examples for reading/writing CSVs, series handling, and DataFrame indexing methods.">
+      <option name="closed" value="true" />
+      <created>1741582744630</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1741582744630</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,13 +318,14 @@
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_1_Download_Stock_Price.coverage" NAME="Lecture_1_Download_Stock_Price Coverage Results" MODIFIED="1740359075875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_4_2_yf_example_2.coverage" NAME="Lecture_4_2_yf_example_2 Coverage Results" MODIFIED="1741417762630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_Series.coverage" NAME="Lec_pd_Series Coverage Results" MODIFIED="1741418838383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
-    <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_csv.coverage" NAME="Lec_pd_csv Coverage Results" MODIFIED="1741582661246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
+    <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_csv.coverage" NAME="Lec_pd_csv Coverage Results" MODIFIED="1741583171204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_2_Building_Blocks.coverage" NAME="Lecture_2_Building_Blocks Coverage Results" MODIFIED="1740621045156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1740883075815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_3_Control_Flow.coverage" NAME="Lecture_3_Control_Flow Coverage Results" MODIFIED="1740798193253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Mod_Inside_Lec.coverage" NAME="Mod_Inside_Lec Coverage Results" MODIFIED="1740882720108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lectures" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_Avgs_Example.coverage" NAME="Lec_Avgs_Example Coverage Results" MODIFIED="1741159866410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_Indexing.coverage" NAME="Lec_pd_Indexing Coverage Results" MODIFIED="1741574561453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
+    <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_Datetime.coverage" NAME="Lec_pd_Datetime Coverage Results" MODIFIED="1741769043719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lecture_4_6_yf_example_3.coverage" NAME="Lecture_4_6_yf_example_3 Coverage Results" MODIFIED="1740903160411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Another_Mod_Inside_Lec.coverage" NAME="Another_Mod_Inside_Lec Coverage Results" MODIFIED="1740892767414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_pd_Numpy.coverage" NAME="Lec_pd_Numpy Coverage Results" MODIFIED="1741446630559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />

@@ -64,7 +64,7 @@ ser = qan_better_read.loc[:, 'Close']
 #print(ser)
 ser.to_csv(QAN_CLOSE_CSV)
 
-as_ser = pd.read_csv(QAN_CLOSE_CSV, index_col = 0)
+as_ser = pd.read_csv(QAN_CLOSE_CSV, index_col = 'Date')
 print(as_ser)
 #
 
