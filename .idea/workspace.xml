@@ -46,39 +46,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.0.executor": "Run",
-    "Python.Another_Mod_Inside_Lec.executor": "Run",
-    "Python.Lec_Avgs_Example.executor": "Run",
-    "Python.Lec_Fileio.executor": "Run",
-    "Python.Lec_pd_Dataframes.executor": "Run",
-    "Python.Lec_pd_Datetime.executor": "Run",
-    "Python.Lec_pd_Indexing.executor": "Run",
-    "Python.Lec_pd_Numpy.executor": "Run",
-    "Python.Lec_pd_Series.executor": "Run",
-    "Python.Lec_pd_csv.executor": "Run",
-    "Python.Lecture_1_Download_Stock_Price.executor": "Run",
-    "Python.Lecture_2_Building_Blocks.executor": "Run",
-    "Python.Lecture_3_Control_Floows_Functions.executor": "Run",
-    "Python.Lecture_3_Control_Flow.executor": "Run",
-    "Python.Lecture_4.2_yf_example_2.executor": "Run",
-    "Python.Lecture_4_2_yf_example_2.executor": "Run",
-    "Python.Lecture_4_6_yf_example_3.executor": "Run",
-    "Python.Mod_Inside_Lec.executor": "Run",
-    "Python.TEST.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/samle/PycharmProjects/FINS5546_Self_Paced",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Another_Mod_Inside_Lec.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_Avgs_Example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_Fileio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Dataframes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Datetime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Indexing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Numpy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Series.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_1_Download_Stock_Price.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_2_Building_Blocks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_3_Control_Floows_Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_3_Control_Flow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_4.2_yf_example_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_4_2_yf_example_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_4_6_yf_example_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mod_Inside_Lec.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TEST.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/samle/PycharmProjects/FINS5546_Self_Paced&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\samle\PycharmProjects\FINS5546_Self_Paced" />
