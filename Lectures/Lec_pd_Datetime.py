@@ -9,7 +9,7 @@ import pandas as pd
 
 import Lecture_4_4_Toolkit_Config as cfg
 
-CSVLOC = os.path.join(cfg.DATADIR, 'tsla_prc.csv')
+CSVLOC = os.path.join(cfg.PRJDIR, 'Lectures','week5_data','qan_prc_2020.csv')
 
 
 # ----------------------------------------------------------------------------
@@ -62,7 +62,7 @@ a_little_ago = dt.datetime(
     hour=13,
     minute=27,
     second=1, microsecond=283311)
-print(a_little_ago)
+#print(a_little_ago)
 #
 
 
@@ -78,7 +78,7 @@ dt_other = dt.datetime(
     microsecond = 330217
 )
 
-print(dt_other)
+#print(dt_other)
 #
 
 
@@ -95,7 +95,7 @@ print(dt_other)
 # Operations between datetime objects will return timedelta objects
 delta  = dt_other - a_little_ago
 #print(repr(delta))
-print(delta)
+#print(delta)
 
 
 # These two dates are 12 hours apart
@@ -124,8 +124,8 @@ delta = dt.timedelta(
 ## This is the new date
 end = start + delta
 #
-print(start)
-print(end)
+#print(start)
+#print(end)
 #
 
 
@@ -160,7 +160,7 @@ date  = a_little_ago
 # Create a string with the representation we want:
 s = date.strftime('%Y-%m-%d %H:%M:%S')
 #print('\n')
-print('\n{}'.format(s))
+#print('\n{}'.format(s))
 
 
 # ----------------------------------------------------------------------------
@@ -171,7 +171,7 @@ print('\n{}'.format(s))
 #   Load the data into a dataframe
 # ----------------------------------------------------------------------------
 
-#prc = pd.read_csv(CSVLOC)
+prc = pd.read_csv(CSVLOC)
 #print(prc)
 #prc.info()
 #
@@ -179,7 +179,7 @@ print('\n{}'.format(s))
 #print(prc.loc[:, 'Date'])
 #
 ## The index is just a counter
-#print(prc.index)
+print(prc.index)
 #
 #
 
