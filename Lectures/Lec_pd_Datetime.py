@@ -24,6 +24,7 @@ CSVLOC = os.path.join(cfg.PRJDIR, 'Lectures','week5_data','qan_prc_2020.csv')
 # Instance of `dt.datetime` with the current date/time
 dt_now  = dt.datetime.now()
 #print(dt_now.microsecond)
+print(dt_now)
 
 # This will produce a string representing the date/time in `dt_now`
 #print(dt_now)
