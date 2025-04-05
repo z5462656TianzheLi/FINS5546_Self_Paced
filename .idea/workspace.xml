@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf1ba504-d2bd-4da6-b751-32cb21bb7a66" name="Changes" comment="Add IntelliJ setup files and update notebook metadata&#10;&#10;Introduced `.idea` project configuration files for IntelliJ to support the GitHub_Clone_Trail project, including settings, VCS mappings, and inspection profiles. Adjusted notebook metadata by adding execution-related fields for better tracking during execution. Minor tweaks improve project organization and execution context.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cf1ba504-d2bd-4da6-b751-32cb21bb7a66" name="Changes" comment="Set JDK to Python 3.13 in project configuration  &#10;&#10;Updated the project configuration file to specify Python 3.13 as the JDK. This ensures compatibility with the desired Python SDK and resolves potential environment inconsistencies." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,40 +44,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.0.executor": "Run",
-    "Python.Another_Mod_Inside_Lec.executor": "Run",
-    "Python.Lec_Avgs_Example.executor": "Run",
-    "Python.Lec_Fileio.executor": "Run",
-    "Python.Lec_pd_Dataframes.executor": "Run",
-    "Python.Lec_pd_Datetime.executor": "Run",
-    "Python.Lec_pd_Indexing.executor": "Run",
-    "Python.Lec_pd_Numpy.executor": "Run",
-    "Python.Lec_pd_Series.executor": "Run",
-    "Python.Lec_pd_csv.executor": "Run",
-    "Python.Lecture_1_Download_Stock_Price.executor": "Run",
-    "Python.Lecture_2_Building_Blocks.executor": "Run",
-    "Python.Lecture_3_Control_Floows_Functions.executor": "Run",
-    "Python.Lecture_3_Control_Flow.executor": "Run",
-    "Python.Lecture_4.2_yf_example_2.executor": "Run",
-    "Python.Lecture_4_2_yf_example_2.executor": "Run",
-    "Python.Lecture_4_6_yf_example_3.executor": "Run",
-    "Python.Mod_Inside_Lec.executor": "Run",
-    "Python.TEST.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/samle/PycharmProjects/FINS5546_Self_Paced",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Another_Mod_Inside_Lec.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_Avgs_Example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_Fileio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Dataframes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Datetime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Indexing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Numpy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_Series.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lec_pd_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_1_Download_Stock_Price.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_2_Building_Blocks.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_3_Control_Floows_Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_3_Control_Flow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_4.2_yf_example_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_4_2_yf_example_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lecture_4_6_yf_example_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Mod_Inside_Lec.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TEST.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/samle/PycharmProjects/FINS5546_Self_Paced&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\samle\PycharmProjects\FINS5546_Self_Paced" />
@@ -177,7 +175,8 @@
       <workItem from="1743401900863" duration="1669000" />
       <workItem from="1743403586271" duration="220000" />
       <workItem from="1743578393996" duration="78000" />
-      <workItem from="1743864956663" duration="482000" />
+      <workItem from="1743864956663" duration="724000" />
+      <workItem from="1743865689237" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial project setup and stock price script&#10;&#10;This commit initializes the project with IntelliJ IDEA configuration files and adds a script to download AAPL stock data using yfinance. The configuration files include project settings, inspection profiles, and version control setup. The script retrieves stock data from 2020-01-01 to 2025-01-31.">
       <option name="closed" value="true" />
@@ -363,7 +362,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743403635522</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add IntelliJ setup files and update notebook metadata&#10;&#10;Introduced `.idea` project configuration files for IntelliJ to support the GitHub_Clone_Trail project, including settings, VCS mappings, and inspection profiles. Adjusted notebook metadata by adding execution-related fields for better tracking during execution. Minor tweaks improve project organization and execution context.">
+      <option name="closed" value="true" />
+      <created>1743865664738</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1743865664738</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Set JDK to Python 3.13 in project configuration  &#10;&#10;Updated the project configuration file to specify Python 3.13 as the JDK. This ensures compatibility with the desired Python SDK and resolves potential environment inconsistencies.">
+      <option name="closed" value="true" />
+      <created>1743866000472</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1743866000472</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Set JDK to Python 3.13 in project configuration  &#10;&#10;Updated the project configuration file to specify Python 3.13 as the JDK. This ensures compatibility with the desired Python SDK and resolves potential environment inconsistencies.">
+      <option name="closed" value="true" />
+      <created>1743866011413</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1743866011413</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +404,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Add initial project setup and stock price script&#10;&#10;This commit initializes the project with IntelliJ IDEA configuration files and adds a script to download AAPL stock data using yfinance. The configuration files include project settings, inspection profiles, and version control setup. The script retrieves stock data from 2020-01-01 to 2025-01-31." />
     <MESSAGE value="Add lecture scripts and update project configuration&#10;&#10;Added Python scripts for foundational programming concepts (Lecture 2: Building Blocks) and control flow (Lecture 3: Control Flow). Updated IntelliJ IDEA project configuration, including CSV editor settings and workspace adjustments. These changes enhance the structure and extend the project with educational materials." />
     <MESSAGE value="Add QAN stock price data CSV file&#10;&#10;Include historical stock price data for QAN (Qantas) from January to September to support analysis and modeling. This file provides essential financial metrics like open, close, high, and low prices along with trading volume." />
@@ -400,7 +424,9 @@
     <MESSAGE value="Update datetime print, add libraries, and tweak configs&#10;&#10;Added `print(dt_now)` for datetime output in `Lec_pd_Datetime.py`. Included essential library imports in the notebook for visualization and processing. Made minor adjustments to project configuration and version control mappings." />
     <MESSAGE value="Add IntelliJ project files for GitHub_Clone_Trail setup&#10;&#10;Introduces `.idea` configuration files to support IntelliJ project setup specific to GitHub_Clone_Trail. This includes project settings, module configurations, VCS mappings, and inspection profiles. A `.gitignore` file is also added to exclude unnecessary local files." />
     <MESSAGE value="Add IntelliJ setup files and update notebook metadata&#10;&#10;Introduced `.idea` project configuration files for IntelliJ to support the GitHub_Clone_Trail project, including settings, VCS mappings, and inspection profiles. Adjusted notebook metadata by adding execution-related fields for better tracking during execution. Minor tweaks improve project organization and execution context." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add IntelliJ setup files and update notebook metadata&#10;&#10;Introduced `.idea` project configuration files for IntelliJ to support the GitHub_Clone_Trail project, including settings, VCS mappings, and inspection profiles. Adjusted notebook metadata by adding execution-related fields for better tracking during execution. Minor tweaks improve project organization and execution context." />
+    <MESSAGE value="Set project to use Python 3.13 SDK in module configuration&#10;&#10;Updated the module configuration to specify Python 3.13 as the SDK instead of an inherited JDK. This ensures better clarity and compatibility for the project's environment setup." />
+    <MESSAGE value="Set JDK to Python 3.13 in project configuration  &#10;&#10;Updated the project configuration file to specify Python 3.13 as the JDK. This ensures compatibility with the desired Python SDK and resolves potential environment inconsistencies." />
+    <option name="LAST_COMMIT_MESSAGE" value="Set JDK to Python 3.13 in project configuration  &#10;&#10;Updated the project configuration file to specify Python 3.13 as the JDK. This ensures compatibility with the desired Python SDK and resolves potential environment inconsistencies." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FINS5546_Self_Paced$Lec_Fileio.coverage" NAME="Lec_Fileio Coverage Results" MODIFIED="1740909658099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lectures" />
